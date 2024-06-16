@@ -13,6 +13,8 @@ valida prove output/fib.out output/fib.proof
 
 valida verify output/fib.out output/fib.proof
 
+cd ..
+
 cargo run --release
 ```
 
