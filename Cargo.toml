@@ -4,3 +4,27 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+ark-bn254 = "0.4"
+ark-serialize = "0.4"
+ciborium = "0.2.2"
+p3-baby-bear = { git = "https://github.com/valida-xyz/Plonky3.git", branch = "valida-main" }
+p3-challenger = { git = "https://github.com/valida-xyz/Plonky3.git", branch = "valida-main" }
+p3-dft = { git = "https://github.com/valida-xyz/Plonky3.git", branch = "valida-main" }
+p3-field = { git = "https://github.com/valida-xyz/Plonky3.git", branch = "valida-main" }
+p3-fri = { git = "https://github.com/valida-xyz/Plonky3.git", branch = "valida-main" }
+p3-keccak = { git = "https://github.com/valida-xyz/Plonky3.git", branch = "valida-main" }
+p3-mds = { git = "https://github.com/valida-xyz/Plonky3.git", branch = "valida-main" }
+p3-merkle-tree = { git = "https://github.com/valida-xyz/Plonky3.git", branch = "valida-main" }
+p3-poseidon = { git = "https://github.com/valida-xyz/Plonky3.git", branch = "valida-main" }
+p3-symmetric = { git = "https://github.com/valida-xyz/Plonky3.git", branch = "valida-main" }
+rand_pcg = "0.3.1"
+rand_seeder = "0.2.3"
+serde = "1.0"
+serde_json = "1.0"
+thiserror = "1.0"
+valida-basic = { git = "https://github.com/valida-xyz/valida" }
+valida-cpu = { git = "https://github.com/valida-xyz/valida" }
+valida-elf = { git = "https://github.com/valida-xyz/valida" }
+valida-machine = { git = "https://github.com/valida-xyz/valida" }
+valida-program = { git = "https://github.com/valida-xyz/valida" }
+valida-static-data = { git = "https://github.com/valida-xyz/valida" }
